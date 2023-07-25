@@ -1,0 +1,50 @@
+Git Configuration
+• git config --global user.name "Your Name": Set your name for commit attribution.
+• git config --global user.email "youremail@example.com": Set your email for commit attribution.
+• git config --global alias.<alias-name> <git-command>: Create an alias for a Git command.
+
+Creating and Cloning Repositories
+• git init: Initialize a new Git repository.
+• git clone <repository-url>: Clone a remote repository onto your local machine.
+
+Basic Operations
+• git status: Show the status of the working directory and staging area.
+• git add <file>: Add file changes to the staging area.
+• git commit -m "Commit message": Create a new commit with the staged changes.
+• git diff: Display the differences between files or commits.
+
+Branching and Merging
+• git branch: List all branches.
+• git branch <branch-name>: Create a new branch.
+• git branch -d <branch-name>: Delete a branch.
+• git checkout <branch-name>: Switch to a different branch.
+• git merge <branch-name>: Merge changes from one branch into the current branch.
+• git rebase <branch-name>: Reapply commits on top of another branch.
+• git cherry-pick <commit>: Apply a specific commit to the current branch.
+
+Remote Repository Operations
+• git remote add <remote-name> <repository-url>: Add a new remote repository.
+• git remote -v: List all remote repositories.
+• git push <remote-name> <branch-name>: Push local commits to a remote repository.
+• git pull <remote-name> <branch-name>: Fetch changes from a remote repository and merge them into the current branch.
+
+History and Commits
+• git log: Show commit history.
+• git log --oneline: Show a concise commit history.
+• git show <commit>: Show information about a specific commit.
+• git blame <file>: Display the author and commit details for each line in a file.
+
+Undoing Changes
+• git reset <commit>: Unstage changes or move the branch pointer.
+• git revert <commit>: Create a new commit that undoes a previous commit.
+• git stash: Temporarily save changes that are not ready to be committed.
+
+Collaboration
+• git fetch <remote-name>: Fetch changes from a remote repository.
+• git push <remote-name> <branch-name>: Publish local changes to a remote repository.
+• git pull <remote-name> <branch-name>: Fetch and merge changes from a remote repository.
+
+Tags
+• git tag: List all tags.
+• git tag <tag-name> <commit>: Create a new tag for a specific commit.
+• git tag -d <tag-name>: Delete a tag
